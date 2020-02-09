@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the navbar correctly 1`] = `
+<nav>
+  <div
+    className="nav-wrapper grey darken-3"
+  >
+    <div
+      className="container"
+    >
+      <a
+        className="brand-logo"
+        href="/"
+        onClick={[Function]}
+      >
+        MarioPlan
+      </a>
+      <ul
+        className="right"
+      >
+        <li>
+          <a
+            href="/create"
+            onClick={[Function]}
+          >
+            Create Project
+          </a>
+        </li>
+        <li>
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            Logout
+          </a>
+        </li>
+        <li>
+          <a
+            className="btn btn-floating pink lighten-3"
+            href="/"
+            onClick={[Function]}
+          >
+            NN
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="right"
+      >
+        <li>
+          <a
+            href="/signin"
+            onClick={[Function]}
+          >
+            Sign Up
+          </a>
+        </li>
+        <li>
+          <a
+            href="/signup"
+            onClick={[Function]}
+          >
+            Login
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+`;

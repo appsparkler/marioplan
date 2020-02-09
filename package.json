@@ -1,0 +1,14 @@
+{
+  "name": "marioplan",
+  "version": "1.0.0",
+  "description": "Marioplan, guided by The Net Ninja",
+
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "main": "index.js",
+  "repository": "git@github.com:appsparkler/marioplan.git",
+  "author": "Aakash Shah",
+  "license": "MIT"
+}

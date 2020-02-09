@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should correctly containerify a component 1`] = `
+<div
+  className="container"
+>
+  <div>
+    Test Component for containerify hoc component
+  </div>
+</div>
+`;

@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getComponentJSX should conditionally render 1`] = `"<div class=\\"project-details section container\\"><div class=\\"card z-depth-1\\"><div class=\\"card-content\\"><div class=\\"progress\\"><div class=\\"indeterminate\\"></div></div></div></div></div>"`;
+
+exports[`getComponentJSX should conditionally render 2`] = `"<div class=\\"project-details section container\\"><div class=\\"card z-depth-1\\"><div><div class=\\"card-content\\"><h3 class=\\"card-title\\">Title 1</h3><p class=\\"card-body\\">Content for project 1</p></div><div class=\\"card-action grey lighten-4 grey-text\\"><div>Posted By The Net Ninja</div><div>2nd September, 2am</div></div></div></div></div>"`;
+
+exports[`should correctly render CardLoader 1`] = `
+<div
+  className="card-content"
+>
+  <div
+    className="progress"
+  >
+    <div
+      className="indeterminate"
+    />
+  </div>
+</div>
+`;
+
+exports[`should correctly render FetchProjectCard 1`] = `
+<div>
+  <div
+    className="card-content"
+  >
+    <h3
+      className="card-title"
+    >
+      Title 1
+    </h3>
+    <p
+      className="card-body"
+    >
+      Content for project 1
+    </p>
+  </div>
+  <div
+    className="card-action grey lighten-4 grey-text"
+  >
+    <div>
+      Posted By The Net Ninja
+    </div>
+    <div>
+      2nd September, 2am
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should correctly render Project Details component 1`] = `
+<div
+  className="project-details section container"
+>
+  <div
+    className="card z-depth-1"
+  >
+    <div
+      className="card-content"
+    >
+      <div
+        className="progress"
+      >
+        <div
+          className="indeterminate"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should render the loader when data is being fetched... 1`] = `"<div class=\\"project-details section container\\"><div class=\\"card z-depth-1\\"><div class=\\"card-content\\"><div class=\\"progress\\"><div class=\\"indeterminate\\"></div></div></div></div></div>"`;

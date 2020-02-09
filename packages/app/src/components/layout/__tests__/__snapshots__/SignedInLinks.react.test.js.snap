@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<ul
+  className="right"
+>
+  <li>
+    <a
+      href="/create"
+      onClick={[Function]}
+    >
+      Create Project
+    </a>
+  </li>
+  <li>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Logout
+    </a>
+  </li>
+  <li>
+    <a
+      className="btn btn-floating pink lighten-3"
+      href="/"
+      onClick={[Function]}
+    >
+      NN
+    </a>
+  </li>
+</ul>
+`;

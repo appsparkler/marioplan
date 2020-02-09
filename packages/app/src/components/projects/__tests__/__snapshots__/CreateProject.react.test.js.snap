@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<form
+  className="white"
+  onSubmit={[Function]}
+>
+  <h4
+    className="grey-text text-darken-3"
+  >
+    Create new project
+  </h4>
+  <div
+    className="input-field"
+  >
+    <label
+      htmlFor="title"
+    >
+      Title
+    </label>
+    <input
+      id="title"
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="input-field"
+  >
+    <label
+      htmlFor="content"
+    >
+      Content
+    </label>
+    <textarea
+      className="materialize-textarea"
+      id="content"
+      onChange={[Function]}
+    />
+  </div>
+  <div
+    className="input-field"
+  >
+    <button
+      className="btn pink lighten-1 z-depth-0"
+      type="submit"
+    >
+      Create
+    </button>
+  </div>
+</form>
+`;
