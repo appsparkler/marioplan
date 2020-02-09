@@ -8,8 +8,11 @@ function handleSubmit(evt) {
   const user = {
     email: fd.get('email'),
     password: fd.get('password'),
+    staySignedIn: fd.get('staySignedIn'),
   }
-  FirebaseApp.auth().setPersistence(FirebaseApp.auth.Auth.Persistence.LOCAL)
+  const persistencType = user.staySignedIn === 'on' ? 'LOCAL': 'NONE'
+  const Persistence = FirebaseApp.auth.Auth.Persistence[persistencType]
+  FirebaseApp.auth().setPersistence(Persistence)
       .then(() => {
         FirebaseApp.auth().createUserWithEmailAndPassword(user.email, user.password)
       })
