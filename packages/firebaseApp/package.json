@@ -1,0 +1,11 @@
+{
+  "name": "@marioplan/firebaseApp",
+  "version": "1.0.0",
+  "description": "A FirebaseApp for Marioplan",
+  "main": "index.js",
+  "author": "Akash Shah",
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^7.8.1"
+  }
+}

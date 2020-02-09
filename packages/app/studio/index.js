@@ -1,7 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
-import FirebaseApp from './firebase-app'
+//
+// import {setupFirebaseApp} from '@marioplan/firebaseApp'
+// setupFirebaseApp(process.env)
 
 ReactDOM.render(<App />, document.getElementById('root'))
 
