@@ -25,11 +25,6 @@ module.exports = {
       '@appsparkler/marioplan': resolve('src'),
     },
     extensions: ['.sass', '.js', '.jsx', '.json'],
-    modules: [
-      resolve('node_modules'),
-      resolve('../../node_modules'),
-      resolve('src'),
-    ],
   },
   plugins: [
     new webpack.DefinePlugin({
