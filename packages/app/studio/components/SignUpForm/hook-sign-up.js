@@ -14,25 +14,9 @@ function handleSubmit(evt) {
         FirebaseApp.auth().createUserWithEmailAndPassword(user.email, user.password)
       })
       .catch(function(error) {
-        // Handle Errors here.
         const errorCode = error.code
         const errorMessage = error.message
       })
-
-  // .createUserWithEmailAndPassword(user.email, user.password)
-  // .then((res) => {
-  //   debugger
-  // })
-  // .catch(function(error) {
-  //   // Handle Errors here.
-  //   const errorCode = error.code
-  //   const errorMessage = error.message
-  //   // ...
-  // })
-  // FirebaseApp.auth().setPersistence(FirebaseApp.auth.Auth.Persistence.NONE)
-  //     .then(() => {
-  //       debugger
-  //     })
 }
 
 export default () => {
