@@ -27,6 +27,7 @@ module.exports = {
     extensions: ['.sass', '.js', '.jsx', '.json'],
     modules: [
       resolve('node_modules'),
+      resolve('../../node_modules'),
       resolve('src'),
     ],
   },

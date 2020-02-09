@@ -1,5 +1,5 @@
 {
-  "name": "pocpin",
+  "name": "@marioplan/app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "test": "jest"
+    "test": "jest",
+    "studio": "webpack-dev-server --config webpack.config.studio.js"
   },
   "browserslist": {
     "production": [
