@@ -52,7 +52,7 @@ exports[`should render the navbar correctly 1`] = `
             href="/signin"
             onClick={[Function]}
           >
-            Sign Up
+            Login
           </a>
         </li>
         <li>
@@ -60,7 +60,7 @@ exports[`should render the navbar correctly 1`] = `
             href="/signup"
             onClick={[Function]}
           >
-            Login
+            Sign Up
           </a>
         </li>
       </ul>
