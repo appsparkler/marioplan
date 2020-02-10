@@ -1,12 +1,12 @@
 import React from 'react'
-import useSignUp from './hook-sign-up'
+import useSignIn from './hook-sign-in'
 
 export default () => {
-  const {handleSubmit} = useSignUp()
+  const {handleSubmit} = useSignIn()
   const [checked, setChecked] = React.useState(true)
   return (
     <div>
-      <h3>Sign Up</h3>
+      <h3>Sign In</h3>
       <form onSubmit={handleSubmit}>
         <input type="text" name="email" />
         <br />
@@ -23,7 +23,7 @@ export default () => {
             }} />
         </label>
         <br />
-        <button>Sign Up</button>
+        <button>Sign In</button>
       </form>
     </div>
   )
